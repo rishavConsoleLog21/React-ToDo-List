@@ -1,0 +1,7 @@
+.quote-style {
+    font: 14px/20px "Helvetica Neue", Helvetica, Arial;
+    border: 5px solid gray;
+    border-radius: 5px;
+    align-items: center;
+    text-align: center;
+}

@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import "./QuoteFetcher.css"
 const RANDOM_QUOTE_URL = "https://inspo-quotes-api.herokuapp.com/quotes/random";
 
 export default function QuoteFetcher() {
@@ -26,7 +27,7 @@ export default function QuoteFetcher() {
   }
 
   return (
-    <div >
+    <div className="quote-style">
       <button onClick={fetchQuote}>Get Quote Using handler</button>
       <h1>{quote.text}</h1>
       <h3>{quote.author}</h3>
